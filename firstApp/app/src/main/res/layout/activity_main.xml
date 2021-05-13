@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
-        android:text="Hello World!"
+        android:text="2+2=4"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -31,26 +31,26 @@
         tools:layout_editor_absoluteX="1dp">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnYes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_marginRight="10dp"
             android:layout_weight="0"
             android:background="#4CAF50"
-            android:text="ДА"
+            android:text="@string/yes"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_marginLeft="10dp"
             android:layout_weight="0"
             android:background="#E91E63"
-            android:text="НЕТ"
+            android:text="@string/no"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
     </LinearLayout>
