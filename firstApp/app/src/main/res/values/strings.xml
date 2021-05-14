@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">firstApp</string>
     <string name="correct">Правильно!</string>
+    <string name="incorrect">Неправильно!</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
+    <string name="question0">2+2=4</string>
+    <string name="question1">Солнце крутится вокруг Земли?</string>
+    <string name="question2">Арбуз является фруктом?</string>
+    <string name="question3">13+6=18</string>
+    <string name="question4">4*3=7</string>
+    <string name="question5">18\2=9</string>
 </resources>
