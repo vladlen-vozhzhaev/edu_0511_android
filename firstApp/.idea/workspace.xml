@@ -22,14 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d15e3a-a6e5-4244-85d4-c9b2b9285f9c" name="Default Changelist" comment="Добавлен обработчик событий на кнопку &quot;Да&quot;">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstapp/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e8d15e3a-a6e5-4244-85d4-c9b2b9285f9c" name="Default Changelist" comment="Добавлены вопросы и layout для горизонтального отображения">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstapp/AnswerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_answer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstapp/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-viewC:/Users/Vladlen/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-52646183">
+      <recent name="com.example.firstapp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620919264273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены вопросы и layout для горизонтального отображения">
+      <created>1620989614944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620989614944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Интерфейс приложения" />
     <MESSAGE value="Добавлен обработчик событий на кнопку &quot;Да&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен обработчик событий на кнопку &quot;Да&quot;" />
+    <MESSAGE value="Добавлены вопросы и layout для горизонтального отображения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены вопросы и layout для горизонтального отображения" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1620985296839">
@@ -224,30 +236,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="306" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620918789520" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1620988777521">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom" timestamp="1620989333024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620988777521" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1620988777520">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620989333024" />
+    <state width="1877" height="133" key="GridCell.Tab.0.center" timestamp="1620989333024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620988777520" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1620988777520">
+    <state width="1877" height="133" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620989333024" />
+    <state width="1877" height="133" key="GridCell.Tab.0.left" timestamp="1620989333024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620988777520" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1620988777521">
+    <state width="1877" height="133" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620989333024" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right" timestamp="1620989333024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620988777521" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620989333024" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1620984899239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620984899239" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620920122819">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620989622439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620920122819" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1620989622439" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1620913162290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

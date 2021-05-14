@@ -1,5 +1,6 @@
 package com.example.firstapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button yesBtn;
     private Button noBtn;
+    private Button showAnswer;
     private TextView textView;
     private Question[] questions = new Question[]{
             new Question(R.string.question0,true),
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         yesBtn = findViewById(R.id.btnYes);
         noBtn = findViewById(R.id.btnNo);
         textView = findViewById(R.id.textView);
+        showAnswer = findViewById(R.id.showAnswer);
         textView.setText(questions[questionIndex].getQuestionResId());
         yesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +63,14 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(questions[questionIndex].getQuestionResId());
             }
         });
-
+        showAnswer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
+                intent.putExtra("answer",questions[questionIndex].isAnswerTrue());
+                startActivity(intent);
+            }
+        });
     }
     @Override
     public void onStart(){
