@@ -1,0 +1,10 @@
+com/example/secondapp/Users.java
+ com.example.secondapp.Users
+com/example/secondapp/BuildConfig.java
+ com.example.secondapp.BuildConfig
+com/example/secondapp/Item.java
+ com.example.secondapp.Item
+com/example/secondapp/MainActivity.java
+ com.example.secondapp.MainActivity
+ com.example.secondapp.MainActivity$UserAdapter
+ com.example.secondapp.MainActivity$UserHolder
