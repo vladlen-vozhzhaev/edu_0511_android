@@ -1,10 +1,24 @@
-com/example/secondapp/Users.java
- com.example.secondapp.Users
-com/example/secondapp/BuildConfig.java
- com.example.secondapp.BuildConfig
+com/example/secondapp/UserCursorWrapper.java
+ com.example.secondapp.UserCursorWrapper
+com/example/secondapp/database/UserDbSchema.java
+ com.example.secondapp.database.UserDbSchema
+ com.example.secondapp.database.UserDbSchema$UserTable
+ com.example.secondapp.database.UserDbSchema$UserTable$Cols
 com/example/secondapp/Item.java
  com.example.secondapp.Item
+com/example/secondapp/AddUserActivity.java
+ com.example.secondapp.AddUserActivity
+ com.example.secondapp.AddUserActivity$1
+com/example/secondapp/User.java
+ com.example.secondapp.User
+com/example/secondapp/Users.java
+ com.example.secondapp.Users
+com/example/secondapp/database/UserBaseHelper.java
+ com.example.secondapp.database.UserBaseHelper
+com/example/secondapp/BuildConfig.java
+ com.example.secondapp.BuildConfig
 com/example/secondapp/MainActivity.java
  com.example.secondapp.MainActivity
+ com.example.secondapp.MainActivity$1
  com.example.secondapp.MainActivity$UserAdapter
  com.example.secondapp.MainActivity$UserHolder
