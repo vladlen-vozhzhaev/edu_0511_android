@@ -6,46 +6,49 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml
+8-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml
+9-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
-12-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.2] C:\Users\Vladlen\.gradle\caches\transforms-2\files-2.1\29aa8a968910bdbd30954c3d9c50b248\core-1.3.2\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\29aa8a968910bdbd30954c3d9c50b248\core-1.3.2\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:7:9-43
+16-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:8:9-41
+17-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:9:9-54
+18-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:10:9-35
+19-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.SecondApp" >
-21-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:11:9-47
-22        <activity android:name="com.example.secondapp.Item" />
-22-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:12:9-51
-22-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:12:19-39
-23        <activity android:name="com.example.secondapp.MainActivity" >
-23-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:13:9-19:20
-23-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:13:19-47
-24            <intent-filter>
-24-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:15:17-69
-25-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:17:17-77
-27-->C:\Users\Vladlen\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+21-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:11:9-47
+22        <activity android:name="com.example.secondapp.AddUserActivity" />
+22-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:12:9-62
+22-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:12:19-50
+23        <activity android:name="com.example.secondapp.Item" />
+23-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:13:9-42
+23-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:13:19-39
+24        <activity android:name="com.example.secondapp.MainActivity" >
+24-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:14:9-20:20
+24-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:14:19-47
+25            <intent-filter>
+25-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:16:17-69
+26-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:18:17-77
+28-->C:\Users\Asus\AndroidStudioProjects\edu_0511_android\secondApp\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>
