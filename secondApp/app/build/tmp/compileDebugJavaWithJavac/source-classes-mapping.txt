@@ -4,8 +4,8 @@ com/example/secondapp/database/UserDbSchema.java
  com.example.secondapp.database.UserDbSchema
  com.example.secondapp.database.UserDbSchema$UserTable
  com.example.secondapp.database.UserDbSchema$UserTable$Cols
-com/example/secondapp/Users.java
- com.example.secondapp.Users
+com/example/secondapp/Item.java
+ com.example.secondapp.Item
 com/example/secondapp/BuildConfig.java
  com.example.secondapp.BuildConfig
 com/example/secondapp/database/UserBaseHelper.java
@@ -14,8 +14,6 @@ com/example/secondapp/User.java
  com.example.secondapp.User
 com/example/secondapp/SingleFragmentActivity.java
  com.example.secondapp.SingleFragmentActivity
-com/example/secondapp/Item.java
- com.example.secondapp.Item
 com/example/secondapp/UserListFragment.java
  com.example.secondapp.UserListFragment
  com.example.secondapp.UserListFragment$1
@@ -24,7 +22,11 @@ com/example/secondapp/UserListFragment.java
 com/example/secondapp/AddUserActivity.java
  com.example.secondapp.AddUserActivity
  com.example.secondapp.AddUserActivity$1
+com/example/secondapp/UserActivity.java
+ com.example.secondapp.UserActivity
 com/example/secondapp/UserFragment.java
  com.example.secondapp.UserFragment
+com/example/secondapp/Users.java
+ com.example.secondapp.Users
 com/example/secondapp/MainActivity.java
  com.example.secondapp.MainActivity

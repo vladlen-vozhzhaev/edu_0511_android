@@ -20,6 +20,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.SecondApp" >
         <activity android:name="com.example.secondapp.AddUserActivity" />
+        <activity android:name="com.example.secondapp.UserActivity" />
         <activity android:name="com.example.secondapp.Item" />
         <activity android:name="com.example.secondapp.MainActivity" >
             <intent-filter>

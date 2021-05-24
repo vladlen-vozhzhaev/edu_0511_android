@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SecondApp">
         <activity android:name=".AddUserActivity"></activity>
+        <activity android:name=".UserActivity"></activity>
         <activity android:name=".Item" />
         <activity android:name=".MainActivity">
             <intent-filter>
