@@ -78,7 +78,7 @@ public class UserListFragment extends Fragment {
         @Override
         public void onClick(View view) {
             //Toast.makeText(getActivity(),userName+" - клик!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(getActivity(), UserActivity.class);
+            Intent intent = new Intent(getActivity(), UserPagerActivity.class);
             intent.putExtra("position",position);
             startActivity(intent);
         }
